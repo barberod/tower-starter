@@ -1,7 +1,7 @@
-student_registration.content:
-    path: '/student-registration'
+student_registration.form:
+    path: '/form'
     defaults:
-        _controller: '\Drupal\student_registration\Controller\HelloController::content'
+        _controller: '\Drupal\student_registration\Form\RegistrationForm'
         _title: 'Student Registration'
     requirements:
         _permission: 'access content'

@@ -13,3 +13,7 @@ A starter kit for a Composer-built Drupal 9 application customized for a workpla
 
 - Add a routing file
     - https://www.drupal.org/docs/creating-custom-modules/step-by-step-tutorial-hello-world/add-a-routing-file
+
+- Create Custom content type programmatically using Configuration API in Drupal 8
+    - https://www.valuebound.com/resources/blog/create-custom-content-type-programmatically-using-configuration-api-drupal-8
+
