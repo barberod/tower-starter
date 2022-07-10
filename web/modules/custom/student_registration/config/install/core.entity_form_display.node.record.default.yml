@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.field.node.record.body
+        - node.type.record
+    module:
+        - text
+        - user
+id: node.record.default
+targetEntityType: node
+bundle: record
+mode: default
+content:
+    body:
+        label: hidden
+        type: text_textarea_with_summary
+        weight: 101
+        settings: {  }
+        third_party_settings: {  }
+    links:
+        weight: 100
+hidden: {  }
